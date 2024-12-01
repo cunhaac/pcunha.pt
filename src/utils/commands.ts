@@ -52,8 +52,7 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
       return `curl: could not fetch URL ${url}. Details: ${error}`;
     }
   },
-  banner: () => `                                                                   
-           __.                                                                                                  
+  banner: () => `                                                                                                 
         .-".'                      .--.            _..._                                            
       .' .'                     .'    \\       .-""  __ ""-.                                          
      /  /                     .'       : --..:__.-""  ""-. \\                                         
@@ -86,7 +85,6 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
                       ;     , \`.                
                       :   \\  ; :                     
                       '..__L.:-'  
-  
 Type 'help' to see list of available commands.
-  `
+ `
 };
